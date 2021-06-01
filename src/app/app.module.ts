@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from './menu/page-not-found/page-not-found.comp
 import { ItemComponent } from './menu/item/item.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SearchComponent } from './menu/search/search.component';
+import { DetileshoesComponent } from './components/detileshoes/detileshoes.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SearchComponent } from './menu/search/search.component';
     ItemComponent,
     SliderComponent,
     SearchComponent,
+    DetileshoesComponent,
   ],
   imports: [
     BrowserModule,
