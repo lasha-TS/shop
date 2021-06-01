@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    .logo{
+        height: 10vh;
+        cursor: pointer;
+    }
+    .navbar{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        height: 10vh;
+        ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            li{
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 10vw;
+                height: 10vh;
+                transition: 0.5s;
+                font-weight: bold;
+                &.active{
+                    background-color: green;
+                    color: white;
+                }
+                &:hover{
+                    background: rgb(148, 148, 148);
+                    color: white;
+                }
+            }
+        }
+    }
+}

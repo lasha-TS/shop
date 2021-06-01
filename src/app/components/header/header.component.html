@@ -1,0 +1,14 @@
+<header>
+    <img src="assets/img/shoeslogo.png" alt="" class="logo" [routerLink]="['/main']" routerLinkActive="router-link-active" >
+    <nav class="navbar">
+        <ul>
+            <li [routerLink]="['/main']" routerLinkActive="active" >მთავარი</li>
+            <li [routerLink]="['/man']" routerLinkActive="active" >კაცი</li>
+            <li [routerLink]="['/woman']" routerLinkActive="active" >ქალი</li>
+            <li [routerLink]="['/child']" routerLinkActive="active" >ბავშვი</li>
+            <li [routerLink]="['/about']" routerLinkActive="active" >ჩვენს შესახებ</li>
+        </ul>
+    </nav>
+    <button type="button" class="btn btn-outline-success">ავტორიზაცია</button>
+</header>
+<router-outlet></router-outlet>
