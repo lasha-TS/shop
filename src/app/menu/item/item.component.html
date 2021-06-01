@@ -2,5 +2,7 @@
     <app-search></app-search>
     <div class="box mt-3" *ngFor="let item of mainList">
         <img [src]="item.img" alt="">
+        <p>{{item.model}}</p>
+        <p>ფასი: {{item.price}}ლარი</p>
     </div>
 </div>
