@@ -8,7 +8,7 @@ import { ObjListService } from 'src/app/obj-list.service';
 })
 export class MainComponent implements OnInit {
 
-  public mainList = [];
+  mainList: ReadonlyArray<any> = [];
 
   constructor(private _mainService: ObjListService) { }
 
