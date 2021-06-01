@@ -1,0 +1,15 @@
+.container{
+	display: flex;
+	justify-content: center;
+	.input{
+		width: 70vw;
+		text-align: center;
+		border-radius: 1rem;
+		border: solid 0px;
+		outline: none;
+		// &::placeholder{
+		// 	text-align: center;
+		// }
+	}
+	
+}

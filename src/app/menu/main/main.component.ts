@@ -8,13 +8,8 @@ import { ObjListService } from 'src/app/obj-list.service';
 })
 export class MainComponent implements OnInit {
 
-  mainList: ReadonlyArray<any> = [];
+  constructor() { }
 
-  constructor(private _mainService: ObjListService) { }
-
-  ngOnInit(): void {
-    this._mainService.getList()
-      .subscribe(data => this.mainList = data);
-  }
+  ngOnInit(): void { }
 
 }

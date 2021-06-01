@@ -11,6 +11,9 @@ import { WomanComponent } from './menu/woman/woman.component';
 import { ChildComponent } from './menu/child/child.component';
 import { AboutComponent } from './menu/about/about.component';
 import { PageNotFoundComponent } from './menu/page-not-found/page-not-found.component';
+import { ItemComponent } from './menu/item/item.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { SearchComponent } from './menu/search/search.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { PageNotFoundComponent } from './menu/page-not-found/page-not-found.comp
     ChildComponent,
     AboutComponent,
     PageNotFoundComponent,
+    ItemComponent,
+    SliderComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
