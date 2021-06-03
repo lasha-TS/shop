@@ -14,7 +14,7 @@ import { PageNotFoundComponent } from './menu/page-not-found/page-not-found.comp
 import { ItemComponent } from './menu/item/item.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SearchComponent } from './menu/search/search.component';
-import { DetileshoesComponent } from './components/detileshoes/detileshoes.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import { DetileshoesComponent } from './components/detileshoes/detileshoes.compo
     ItemComponent,
     SliderComponent,
     SearchComponent,
-    DetileshoesComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,

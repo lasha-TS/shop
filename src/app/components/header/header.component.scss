@@ -1,10 +1,12 @@
+$gradiantbgcolor: rgba(0, 0, 0, 0.808);
+
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: rgb(230, 230, 230);
     box-shadow: 0px 0px 10px 2px;
+    background: $gradiantbgcolor;
     .logo{
         height: 10vh;
         cursor: pointer;
@@ -32,13 +34,14 @@ header{
                 height: 10vh;
                 transition: 0.5s;
                 font-weight: bold;
+                color: white;
                 &.active{
                     background-color: green;
-                    color: white;
+                    color: rgb(255, 255, 255);
                 }
                 &:hover{
-                    background: rgb(148, 148, 148);
-                    color: white;
+                    background: rgb(187, 187, 187);
+                    color: black;
                 }
             }
         }

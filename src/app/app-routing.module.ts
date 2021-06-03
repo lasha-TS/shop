@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DetileshoesComponent } from './components/detileshoes/detileshoes.component';
+import { DetailsComponent } from './components/details/details.component';
 import { AboutComponent } from './menu/about/about.component';
 import { ChildComponent } from './menu/child/child.component';
 import { MainComponent } from './menu/main/main.component';
@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'child', component: ChildComponent },
   { path: 'main', component: MainComponent },
-  { path: 'item/:id', component: DetileshoesComponent },
+  { path: 'detile/:id', component: DetailsComponent },
   { path: 'man', component: ManComponent },
   { path: 'woman', component: WomanComponent },
   { path: '**', component: PageNotFoundComponent }
