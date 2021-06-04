@@ -1,6 +1,7 @@
 $gradiantbgcolor: rgba(0, 0, 0, 0.808);
 $gradiantgray: rgba(221, 221, 221, 0.815);
-
+$enFont: 'Cinzel', serif;
+$geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
 
 @mixin boxBorder {
     background: $gradiantgray;
@@ -54,6 +55,12 @@ $gradiantgray: rgba(221, 221, 221, 0.815);
                 flex-direction: column;
                 justify-content: space-around;
                 height: 13rem;
+                h3{
+                    font-family: $enFont;
+                }
+                h5{
+                    font-family: $geoFont;
+                }
                 .size{
                     border-radius: 5rem;
                     margin-right: 0.2rem;
@@ -64,6 +71,9 @@ $gradiantgray: rgba(221, 221, 221, 0.815);
                     color: white;
                 }
             }
+            h5{
+                font-family: $geoFont;
+            }
             .quantity{
                 display: flex;
                 justify-content: space-around;
@@ -73,6 +83,9 @@ $gradiantgray: rgba(221, 221, 221, 0.815);
                     text-align: center;
                     width: 5rem;
                 }
+            }
+            .btn-outline-light{
+                font-family: $geoFont;;
             }
         }
     }

@@ -1,4 +1,6 @@
 $gradiantbgcolor: rgba(0, 0, 0, 0.808);
+$enFont: 'Cinzel', serif;
+$geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
 
 .container{
     display: flex;
@@ -36,6 +38,7 @@ $gradiantbgcolor: rgba(0, 0, 0, 0.808);
             .model{
                 text-align: center;
                 font-weight: bold;
+                font-family: $enFont;
             }
             .gap-2{
                 display: flex;
@@ -43,7 +46,8 @@ $gradiantbgcolor: rgba(0, 0, 0, 0.808);
                 width: 15rem;
                 .price{
                     text-align: center;
-                    font-weight: bold;
+                    font-size: 1rem;
+                    font-family: $geoFont;
                 }
                 .btn{
                     background: green;
