@@ -15,13 +15,13 @@ $gradiantbgcolor: rgba(0, 0, 0, 0.808);
         width: 16rem;
         height: 23rem;
         border-radius: 0.5rem;
-        cursor: pointer;
         background: rgb(255, 255, 255);
         transition: 50ms;
         &:hover{
             box-shadow: 0px 0px 10px 1px green;
         }
         img{
+            cursor: pointer;
             width: 16rem;
             height: 16rem;
             border-radius: 0.5rem 0.5rem 0 0;

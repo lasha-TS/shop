@@ -1,7 +1,7 @@
 <div class="container mt-3">
     <app-search></app-search>
-    <div (click)="onClick(item.id)" class="box mt-3" *ngFor="let item of mainList">
-        <img [src]="item.img" alt="">
+    <div class="box mt-3" *ngFor="let item of mainList">
+        <img (click)="onClick(item.id)" [src]="item.img" alt="">
         <div class="description">
             <p class="model">{{item.model}}</p>
             <div class="gap-2">
