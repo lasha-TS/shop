@@ -1,12 +1,12 @@
 $gradiantbgcolor: rgba(0, 0, 0, 0.808);
-$gradiantgray: rgba(221, 221, 221, 0.815);
+$gradiantgray: rgba(221, 221, 221, 0.322);
 $enFont: 'Cinzel', serif;
 $geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
 
 @mixin boxBorder {
     background: $gradiantgray;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 15px 1px white;
+    box-shadow: 0px 0px 5px 1px white;
 }
 
 .container{
@@ -18,6 +18,7 @@ $geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
         align-items: center;
         padding: 1rem;
         width: 80vw;
+        height: 80vh;
         background: $gradiantbgcolor;
         border-radius: 0.5rem;
         box-shadow: 0px 0px 15px 1px white;
@@ -26,17 +27,17 @@ $geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            width: 20rem;
-            height: 25rem;
+            width: 21rem;
+            height: 26rem;
             @include boxBorder;
             .mainimg{
-                width: 18rem;
+                width: 19rem;
                 height: 23rem;
                 transition: 0.5s;
                 cursor: pointer;
                 &:hover{
-                    width: 20rem;
-                    height: 25rem;
+                    width: 21rem;
+                    height: 26rem;
                     @include boxBorder;
                 }
             }
@@ -82,6 +83,27 @@ $geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
                     outline: none;
                     text-align: center;
                     width: 5rem;
+                }
+                .btnCoutn{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    background: rgba(0, 0, 0, 0);
+                    &:first-child{
+                        border: solid 2px rgb(122, 0, 0);
+                        border-radius: 0.5rem 0 0 0.5rem;
+                        &:hover{
+                            background: red;
+                            box-shadow: 0 0 5px 2px rgb(122, 0, 0);
+                        }
+                    }
+                    &:last-child{
+                        border: solid 2px rgb(0, 83, 0);
+                        border-radius: 0 0.5rem 0.5rem 0;
+                        &:hover{
+                            background: green;
+                            box-shadow: 0 0 5px 2px rgb(0, 83, 0);
+                        }
+                    }
                 }
             }
             .btn-outline-light{

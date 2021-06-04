@@ -10,8 +10,8 @@ import { ObjListService } from 'src/app/obj-list.service';
 })
 export class DetailsComponent implements OnInit {
   id: number = 0; 
-
   details: any;
+  count: number = 1;
   
   constructor(private route: ActivatedRoute,
     private _detiles: ObjListService) { }
@@ -20,6 +20,14 @@ export class DetailsComponent implements OnInit {
     this.id = this.route.snapshot.params.id;
     this._detiles.getList()
     .subscribe(data => this.details = (data.filter((details) => details.id == this.id)));
+  }
+
+  minusCount(){
+    this.count--;
+  }
+
+  plusCount(){
+    this.count++;
   }
 
 
