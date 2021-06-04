@@ -1,86 +1,98 @@
 [
     {
         "id": 1,
-        "img": "/assets/shoesimg/item1.jpg",
+        "img": ["/assets/shoesimg/item1.jpg"],
         "model": "Adidas Basketball Shoes",
         "price": "185",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 2,
         "img": "/assets/shoesimg/item2.jpg",
         "model": "Adidas Nite Jogger",
         "price": "345",
-        "year": "2020"
+        "year": "2020",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 3,
         "img": "/assets/shoesimg/item3.jpg",
         "model": "Nite Jogger Sneakers",
         "price": "240",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 4,
         "img": "/assets/shoesimg/item4.jpg",
         "model": "Fortarun X Running Shoes",
         "price": "110",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 5,
         "img": "/assets/shoesimg/item5.jpg",
         "model": "Adidas Stan Smith",
         "price": "235",
-        "year": "2020"
+        "year": "2020",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 6,
         "img": "/assets/shoesimg/item6.jpg",
         "model": "HU Pharrell Human Race",
         "price": "830",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 7,
         "img": "/assets/shoesimg/item7.jpg",
         "model": "Adidas D.O.N. Issue 1",
         "price": "190",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 8,
         "img": "/assets/shoesimg/item8.jpg",
         "model": "White Mountaineering",
         "price": "355",
-        "year": "2020"
+        "year": "2020",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 9,
         "img": "/assets/shoesimg/item9.jpg",
         "model": "Pharell Williams V2",
         "price": "950",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 10,
         "img": "/assets/shoesimg/item10.jpg",
         "model": "kids lite racer adapt",
         "price": "150",
-        "year": "2020"
+        "year": "2020",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 11,
         "img": "/assets/shoesimg/item11.jpg",
         "model": "Adidas Continental 80",
         "price": "320",
-        "year": "2019"
+        "year": "2019",
+        "size": [39, 40, 41, 42]
     },
     {
         "id": 12,
         "img": "/assets/shoesimg/item12.jpg",
         "model": "Adidas Nite Jogger",
         "price": "345",
-        "year": "2020"
+        "year": "2020",
+        "size": [39, 40, 41, 42]
     }
 ]

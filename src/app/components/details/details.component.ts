@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ObjList } from 'src/app/obj-list';
 import { ObjListService } from 'src/app/obj-list.service';
 
 
@@ -10,9 +9,9 @@ import { ObjListService } from 'src/app/obj-list.service';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
-
   id: number = 0; 
-  details: any = [];
+
+  details: any;
   
   constructor(private route: ActivatedRoute,
     private _detiles: ObjListService) { }
@@ -20,8 +19,9 @@ export class DetailsComponent implements OnInit {
   ngOnInit(): void {
     this.id = this.route.snapshot.params.id;
     this._detiles.getList()
-    .subscribe(this.details = data.filter((details: { id: number; }) => details.id == this.id));
-    // console.log(this.details)
+    .subscribe(data => this.details = (data.filter((details) => details.id == this.id)));
   }
+
+
 
 }

@@ -1,0 +1,79 @@
+$gradiantbgcolor: rgba(0, 0, 0, 0.808);
+$gradiantgray: rgba(221, 221, 221, 0.815);
+
+
+@mixin boxBorder {
+    background: $gradiantgray;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 15px 1px white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    .detailbox{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+        width: 80vw;
+        background: $gradiantbgcolor;
+        border-radius: 0.5rem;
+        box-shadow: 0px 0px 15px 1px white;
+        .imagebox{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 20rem;
+            height: 25rem;
+            @include boxBorder;
+            .mainimg{
+                width: 18rem;
+                height: 23rem;
+                transition: 0.5s;
+                cursor: pointer;
+                &:hover{
+                    width: 20rem;
+                    height: 25rem;
+                    @include boxBorder;
+                }
+            }
+        }
+        .alldetail{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            color: white;
+            padding: 1rem;
+            width: 30rem;
+            height: 25rem;
+            .detailtextbox{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 13rem;
+                .size{
+                    border-radius: 5rem;
+                    margin-right: 0.2rem;
+                    width: 2.5rem;
+                    height: 2.5rem;
+                    border: solid 1px white;
+                    background: rgb(0, 0, 0);
+                    color: white;
+                }
+            }
+            .quantity{
+                display: flex;
+                justify-content: space-around;
+                width: 11rem;
+                .quantityinput{
+                    outline: none;
+                    text-align: center;
+                    width: 5rem;
+                }
+            }
+        }
+    }
+}
