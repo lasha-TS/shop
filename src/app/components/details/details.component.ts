@@ -19,7 +19,7 @@ export class DetailsComponent implements OnInit {
   ngOnInit(): void {
     this.id = this.route.snapshot.params.id;
     this._detiles.getList()
-    .subscribe(data => this.details = (data.filter((details) => details.id == this.id)));
+    .subscribe(data => this.details = data.filter((details) => details.id == this.id));
   }
 
   minusCount(){
