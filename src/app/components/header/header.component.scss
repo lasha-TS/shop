@@ -12,10 +12,10 @@ header{
         cursor: pointer;
     }
     .navbar{
-        padding: 0;
-        margin: 0;
         display: flex;
         justify-content: center;
+        padding: 0;
+        margin: 0;
         height: 10vh;
         ul{
             padding: 0;
@@ -47,3 +47,9 @@ header{
         }
     }
 }
+
+@media only screen and (min-width: 1030px) {
+    .navbar{
+        display: none;
+    }
+  }
