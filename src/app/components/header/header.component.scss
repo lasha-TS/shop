@@ -51,7 +51,8 @@ header{
     }
     .bi-person-circle{
         &:hover{
-            color: green;
+            fill: green;
+            cursor: pointer;
         }
     }
 }
