@@ -52,6 +52,9 @@ header{
         text-align: center;
         width: 7rem;
         height: 2.5rem;
+        p{
+            color: white;
+        }
     }
     .bi-view-list{
         display: none;
@@ -62,12 +65,15 @@ header{
     header{
         .navbar{
         display: none;
-    }
-        .bi-view-list{
-            display: flex;
         }
-        p{
-            display: none;
+        .btn-outline-success{
+            width: 2.5rem;
+            .bi-view-list{
+                display: flex;
+            }
+            p{
+                display: none;
+            }
         }
     }
 }
