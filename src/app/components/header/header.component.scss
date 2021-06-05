@@ -61,11 +61,22 @@ header{
     header{
         display: flex;
         justify-content: space-between;
-        padding: 0.5rem;
         .navbar{
             display: none;
+            position: absolute;
+            background: #000;
+            height: auto;
+            z-index: 3;
+            margin-top: 90vh;
             ul{
                 display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                li{
+                    width: 100vw;
+                    height: 20vh;
+                }
             }
         }
         .bi-view-list{

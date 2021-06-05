@@ -7,15 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   
-  drop?: string;
+
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  getMenu(){
-    this.drop = 'flex';
-  }
 
 }

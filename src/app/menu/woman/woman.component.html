@@ -1,7 +1,7 @@
 <div class="container mt-3">
     <app-search></app-search>
     <div class="box mt-3" *ngFor="let woman of womans">
-        <img [src]="woman.img" alt="">
+        <img (click)="onClick(woman.id)" [src]="woman.img" alt="">
         <div class="description">
             <p class="model">{{woman.model}}</p>
             <div class="gap-2">
