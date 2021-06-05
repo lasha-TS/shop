@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ObjListService } from 'src/app/obj-list.service';
 
 @Component({
   selector: 'app-woman',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WomanComponent implements OnInit {
 
-  constructor() { }
+  womans: any;
+
+  constructor(private _womanService: ObjListService) { }
 
   ngOnInit(): void {
+    this._womanService.getList()
+    .subscribe(data => this.womans = data.filter((data) => data.category == 'woman'));
   }
-
 }

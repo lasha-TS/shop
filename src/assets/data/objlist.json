@@ -5,7 +5,8 @@
         "model": "Adidas Basketball Shoes",
         "price": "185",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "model": "Adidas Nite Jogger",
         "price": "345",
         "year": "2020",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "model": "Nite Jogger Sneakers",
         "price": "240",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "woman"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "model": "Fortarun X Running Shoes",
         "price": "110",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "model": "Adidas Stan Smith",
         "price": "235",
         "year": "2020",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "model": "HU Pharrell Human Race",
         "price": "830",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "model": "Adidas D.O.N. Issue 1",
         "price": "190",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "woman"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "model": "White Mountaineering",
         "price": "355",
         "year": "2020",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "model": "Pharell Williams V2",
         "price": "950",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "woman"
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "model": "kids lite racer adapt",
         "price": "150",
         "year": "2020",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "woman"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "model": "Adidas Continental 80",
         "price": "320",
         "year": "2019",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "man"
     },
     {
         "id": 12,
@@ -93,6 +104,7 @@
         "model": "Adidas Nite Jogger",
         "price": "345",
         "year": "2020",
-        "size": [39, 40, 41, 42]
+        "size": [39, 40, 41, 42],
+        "category": "woman"
     }
 ]

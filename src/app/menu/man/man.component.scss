@@ -1,0 +1,58 @@
+$gradiantbgcolor: rgba(0, 0, 0, 0.808);
+$enFont: 'Cinzel', serif;
+$geoFont: "BPG ExtraSquare Mtavruli", sans-serif;
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: $gradiantbgcolor;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 1px white;
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 16rem;
+        height: 23rem;
+        border-radius: 0.5rem;
+        background: rgb(255, 255, 255);
+        transition: 50ms;
+        &:hover{
+            box-shadow: 0px 0px 10px 1px green;
+        }
+        img{
+            cursor: pointer;
+            width: 16rem;
+            height: 16rem;
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+        .description{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 15rem;
+            height: 7rem;
+            .model{
+                text-align: center;
+                font-weight: bold;
+                font-family: $enFont;
+            }
+            .gap-2{
+                display: flex;
+                justify-content: space-between;
+                width: 15rem;
+                .price{
+                    text-align: center;
+                    font-size: 1rem;
+                    font-family: $geoFont;
+                }
+                .btn{
+                    background: green;
+                }
+            }
+        }
+    }
+}

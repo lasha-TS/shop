@@ -1,7 +1,10 @@
 export interface ObjList {
     id: number,
     img: string,
-    name: string,
-    color: string,
-    price: number
+    model: string,
+    price: number,
+    year: number,
+    size: number[],
+    category: string,
+    color: string
 }

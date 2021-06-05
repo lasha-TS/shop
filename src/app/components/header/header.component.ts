@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  
+  drop?: string;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getMenu(){
+    this.drop = 'flex';
   }
 
 }
