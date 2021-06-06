@@ -6,6 +6,7 @@ import { ChildComponent } from './menu/child/child.component';
 import { MainComponent } from './menu/main/main.component';
 import { ManComponent } from './menu/man/man.component';
 import { PageNotFoundComponent } from './menu/page-not-found/page-not-found.component';
+import { SigninComponent } from './menu/signin/signin.component';
 import { WomanComponent } from './menu/woman/woman.component';
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'detile/:id', component: DetailsComponent },
   { path: 'man', component: ManComponent },
   { path: 'woman', component: WomanComponent },
+  { path: 'signin', component: SigninComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 

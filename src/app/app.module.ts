@@ -15,6 +15,8 @@ import { ItemComponent } from './menu/item/item.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SearchComponent } from './menu/search/search.component';
 import { DetailsComponent } from './components/details/details.component';
+import { FormsModule } from '@angular/forms';
+import { SigninComponent } from './menu/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +32,13 @@ import { DetailsComponent } from './components/details/details.component';
     SliderComponent,
     SearchComponent,
     DetailsComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

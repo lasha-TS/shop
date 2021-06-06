@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ObjListService } from 'src/app/obj-list.service';
 
 @Component({
   selector: 'app-search',
@@ -8,13 +7,11 @@ import { ObjListService } from 'src/app/obj-list.service';
 })
 export class SearchComponent implements OnInit {
 
-  names = '';
 
-  constructor(private _searchservice: ObjListService) { }
+
+  constructor() { }
 
   ngOnInit(): void {
-    // this._searchservice.getList()
-    // .subscribe(data => this.value = data.filter((data) => data.model == this.value));
   }
 
 }
